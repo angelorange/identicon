@@ -22,5 +22,6 @@ Identicon generator using Elixir.
   Identicon.main "Something"
 ```
 
-The identicon of Something
+## The identicon of Something
+
 ![Screenshot](Something.png)
