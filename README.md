@@ -1,21 +1,26 @@
 # Identicon
 
-**TODO: Add description**
+Identicon generator using Elixir.
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `identicon` to your list of dependencies in `mix.exs`:
+- Install dependencies
 
-```elixir
-def deps do
-  [
-    {:identicon, "~> 0.1.0"}
-  ]
-end
+```
+  mix deps.get
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/identicon>.
+- Go to Repl
 
+```
+  iex -S mix
+```
+
+- Run the command
+
+```
+  Identicon.main "Something"
+```
+
+The identicon of Something
+![Screenshot](Something.png)
